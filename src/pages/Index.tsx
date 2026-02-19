@@ -13,7 +13,7 @@ const Index = () => {
 
   useEffect(() => {
     if (countdown <= 0) {
-      window.open(TELEGRAM_LINK, "_blank");
+      window.location.href = TELEGRAM_LINK;
       return;
     }
 
